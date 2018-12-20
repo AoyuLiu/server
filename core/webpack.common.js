@@ -3,7 +3,6 @@ const webpack = require('webpack');
 
 module.exports = {
 	entry: {
-		//globals: path.join(__dirname, 'src/globals.js'),
 		main: path.join(__dirname, 'src/main.js')
 	},
 	output: {
